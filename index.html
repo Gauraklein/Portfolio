@@ -5,27 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gaura.Klein</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav id="navbar">
-        <ul>
+    <nav id="navbar" class="navbar is-black is-bold">
+        
+            <div class="navbar-brand">
+                    <a class="navbar-item" href="#">
+                     Gaura Klein
+                    </a>
+                
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                      <span aria-hidden="true"></span>
+                      <span aria-hidden="true"></span>
+                      <span aria-hidden="true"></span>
+                    </a>
+            </div>
+
+            <div class="navbar-end">
+                <a href="#projects" class="navbar-item">Projects</a>
+                <a href="#experience" class="navbar-item">Experience</a>
+                <a href="#contact" class="navbar-item">Contact</a>
+                <a href="#resume" class="navbar-item">Resume</a>
+            </div>
+
+    </nav>
+
+    <!-- <ul>
             <li>Projects</li>
             <li>Experience</li>
             <li>Contact</li>
             <li>Resume</li>
-        </ul>
-    </nav>
+        </ul> -->
 
-    <div id="landingPage">
-        <img src="GauraSquare.jpg" alt="Picture of Me" id="profilePic">
-        <p>const introduction = {<br>
-            greeting: "Hello World!",<br>
-            name: "Gaura Klein",<br>
-            occupation: "Software Developer"<br>
-            };</p>
-    </div>
+    <section id="landingPage" class="hero is-black">
+       <div class="hero-body">
+           <div class="columns">
+               <div class="column is-one-quarter">
+                    <img src="GauraSquare.jpg" alt="Picture of Me" id="profilePic">
+               </div>
+
+               <div class="column is-three-quarters has-text-justified">
+                    <p class="is-size-3" id="typedIntro"><font color="blue">const</font> Introduction <font color="white">=</font> <font color="yellow">{</font><br>
+                        greeting: <font color="#ba7d65">"Hello World!"</font><font color="white">,</font><br>
+                        name: <font color="#ba7d65">"Gaura Klein"</font><font color="white">,</font><br>
+                        occupation: <font color="#ba7d65">"Software Developer"</font><br>
+                        <font color="yellow">}</font><font color="white">;</font></p>
+               </div>
+        
+           </div>
+       </div>
+    </section>
 
     <div id="projects"></div>
 
@@ -34,5 +66,7 @@
     <div id="contact"></div>
 
     <div id="resume"></div>
+
+    <script src="index.js"></script>
 </body>
 </html>

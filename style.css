@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+#profilePic {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+#typedIntro {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(33, 163, 241);
+}
