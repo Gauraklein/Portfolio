@@ -7,6 +7,7 @@
     <title>Gaura.Klein</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 </head>
 <body>
 
@@ -47,12 +48,8 @@
                     <img src="GauraSquare.jpg" alt="Picture of Me" id="profilePic">
                </div>
 
-               <div class="column is-three-quarters has-text-justified">
-                    <p class="is-size-3" id="typedIntro"><font color="blue">const</font> Introduction <font color="white">=</font> <font color="yellow">{</font><br>
-                        greeting: <font color="#ba7d65">"Hello World!"</font><font color="white">,</font><br>
-                        name: <font color="#ba7d65">"Gaura Klein"</font><font color="white">,</font><br>
-                        occupation: <font color="#ba7d65">"Software Developer"</font><br>
-                        <font color="yellow">}</font><font color="white">;</font></p>
+               <div  class="column is-three-quarters has-text-justified">
+                    <p id="typedText" class="is-size-3" id="typedIntro"></p>
                </div>
         
            </div>
@@ -67,6 +64,6 @@
 
     <div id="resume"></div>
 
-    <script src="index.js"></script>
+    <script type="module" src="index.js"></script>
 </body>
 </html>
