@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
+#introSection {
+    background-image: url('./codeImgBlur.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 #profilePic {
     max-width: 200px;
     border-radius: 50%;
+    border: 4px solid black;
 }
 
 #typedIntro {
