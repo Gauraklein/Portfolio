@@ -1,18 +1,76 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
-#introSection {
-    background-image: url('./codeImgBlur.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-#profilePic {
-    max-width: 200px;
-    border-radius: 50%;
-    border: 4px solid black;
+#nameNav {
+    color: white;
 }
 
+#introSection {
+    background-image: url('./img/codeImgBlur.png');
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+#introBody {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 60vh;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#profilePic {
+    max-width: 300px;
+    border-radius: 50%;
+    /* border: 4px solid black; */
+}
+
+#typedTextContainer {
+    max-height: 200px;
+}
 #typedIntro {
     font-family: 'Source Code Pro', monospace;
     color: rgb(33, 163, 241);
+}
+
+.is-flex-centered {
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+#iconLinks {
+    /* padding: 100px; */
+    margin: 20px;
+}
+
+.iconMargin {
+    margin: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+    /* color: green; */
+}
+
+.gif {
+    max-width: 100%;
+}
+
+#trumpGif {
+    /* margin-top: 70px; */
+}
+
+.aboutIcon {
+    margin-bottom: 15px;
+}
+
+#aboutTitle {
+
+}
+#downloadResume {
+    margin-top: 10px;
 }
