@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    height: 60vh;
+    height: 80vh;
     justify-content: space-between;
     /* align-items: center; */
 }
@@ -60,17 +60,13 @@ a:hover {
     max-width: 100%;
 }
 
-#trumpGif {
-    /* margin-top: 70px; */
-}
+
 
 .aboutIcon {
     margin-bottom: 15px;
 }
 
-#aboutTitle {
 
-}
 #downloadResume {
     margin-top: 10px;
 }
