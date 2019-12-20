@@ -32,7 +32,7 @@ let possiblyCheesyIntro = [`<font color="blue">const</font> Introduction <font c
   occupation: <font color="#ba7d65">"Software Developer"</font><br>
   <font color="yellow">}</font><font color="white">;</font>`]
 
-let basicIntro = ["style="font-family:'Source Code Pro', monospace;"Gaura Klein <br>Software Developer"]
+let basicIntro = ["Gaura Klein <br>Software Developer"]
 
 let sentence = {
   strings: basicIntro,
