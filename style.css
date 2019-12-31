@@ -58,6 +58,8 @@ a:hover {
 
 .gif {
     max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 
@@ -69,4 +71,12 @@ a:hover {
 
 #downloadResume {
     margin-top: 10px;
+}
+
+.iconBottom {
+    color: #494949;
+}
+
+.iconBottom:hover {
+    color: gray;
 }

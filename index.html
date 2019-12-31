@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gaura.Klein</title>
+    <title>Gaura Klein</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/ff95eb7062.js" crossorigin="anonymous"></script>
@@ -12,7 +12,7 @@
 </head>
 <body>
 
-        
+
     <!-- INTRO INTRO INTRO  -->
 
     <section id="introSection" class="hero is-black is-large">
@@ -20,12 +20,12 @@
         <!-- NAVBAR NAVBAR NAVBAR  -->
 
             <nav id="navbar" class="navbar is-dark is-bold">
-        
+
                     <div class="navbar-brand">
                             <a class="navbar-item" href="#">
                              <p class="title" id="nameNav">Gaura Klein</p>
                             </a>
-                        
+
                             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                               <span aria-hidden="true"></span>
                               <span aria-hidden="true"></span>
@@ -52,7 +52,7 @@
                         <img src="img/GauraSquare.jpg" alt="Picture of Me" id="profilePic">
                 </div>
 
-              
+
                </div>
 
                <div id="typedTextContainer" class="has-text-centered">
@@ -65,13 +65,13 @@
                     </span>
                     <span class="icon iconMargin">
                         <a href="mailto:gaurakklein@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
-                    </span> 
+                    </span>
                     <span class="icon iconMargin">
                         <a href="https://www.linkedin.com/in/gaura-klein-0926b9b2/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a>
-                    </span>   
+                    </span>
 
                </div>
-               
+
                <div id="chevronDown" class="has-text-centered">
                 <i class="fas fa-chevron-down fa-2x"></i>
                </div>
@@ -84,12 +84,56 @@
     <section id="projectSection" class="hero is-white">
         <div class="hero-body">
             <div class="container has-text-centered">
-                
+
                 <h1 class="title is-1">Projects</h1>
-                
+
                 <!-- THIS AMERICAN LIFE THIS AMERICAN LIFE THIS AMERICAN LIFE -->
 
-                
+                <div class="projectContainer">
+
+                    <div class="columns">
+                        <div class="column is-one-half has-text-left">
+                            <h1 class="title is-3">The Unofficial 'This American Life' App</h1>
+                            <p class="subtitle is-5">An exercise in React.js and webscraping.</p>
+                            <p class="content">This app is a work in progress and has been a great lesson in recreating a fully functioning web app.
+                                I started this project because I was having trouble keeping track of which episodes of 'This American Life' I had already listened to.
+                                The eventual goal for this project is to implement that feature and I am steadily working towards it. The journey to that point has been a great experience and has allowed me to work with some very interesting technologies.
+                                The first issue I faced was gathering episode data which I solved by scraping the 'This American Life' website.
+                                From there I had to parse the data I gathered and store it somewhere so I created a relational database to hold all the episode information and contents.
+                                Finally I used React as a frontend connected to a SQL backend in order to display and play audio from all episodes. This project is still in development and I will deploy as I have more of the functionality built out.
+                            </p>
+
+                        </div>
+
+                        <div class="is-flex is-flex-centered column">
+                            <div id="talGifs">
+                                <div>
+                                <img src="img/Talgif.gif" alt="Frontend" class="image gif">
+                                </div>
+                                <br>
+                                <div>
+                                <img src="img/talscrapergif.gif" alt="Scraper" class="image gif">
+                                </div>
+                            </div>
+                                
+                        </div>
+
+                    </div>
+
+                    <div class="projectFooter columns">
+
+                        <p class="column has-text-left is-one-half"><strong>Technologies Used</strong><br>
+                            React - Redux - Node.js - PostgreSQL <br> Express.js - Passport.js - Puppeteer.js - Cheerio.js
+                        </p>
+
+                        <p class="buttons has-text-centered are-medium column is-one-half">
+                            <a href="https://github.com/Gauraklein/unofficialThisAmericanLife" target="_blank" rel="noopener noreferrer"><button class="button">App Source Code</button></a>
+                            <a href="https://github.com/Gauraklein/this_american_life_scraper" target="_blank" rel="noopener noreferrer"><button class="button">Scraper Source Code</button></a>
+                        </p>
+
+                    </div>
+                </div>
+
                 <!-- TRUMP VS THE MARKETS TRUMP VS THE MARKET TRUMP VS THE MARKET -->
 
                 <div class="projectContainer">
@@ -104,8 +148,8 @@
                         <div class="column is-one-half has-text-right">
                                 <h1 class="title is-3">Trump vs The Market</h1>
                                 <p class="subtitle is-5">A visualization of President Trump's tweeting habits and the stock market.</p>
-                                <p class="content has-text-left">This project was created to help visualize whether President Trump's tweeting had an effect on a select group of stocks. 
-                                    This project was a group effort and during the development process I learned a lot about working collaboratively as well as being able to adapt a project quickly. 
+                                <p class="content has-text-left">This project was created to help visualize whether President Trump's tweeting had an effect on a select group of stocks.
+                                    This project was a group effort and during the development process I learned a lot about working collaboratively as well as being able to adapt a project quickly.
                                     We spent a fair amount of time in the beginning planning how we would build this app and we utilized project management tools to keep track of each team members progress.
                                     While working on the application we had a couple of changes in scope as well as technologies used.
                                     All of these changes helped teach me how accept that not every line of code I write will be used in production. A tough lesson but a powerful one.
@@ -119,27 +163,27 @@
                                     <a href="https://trumpvsthemarket.netlify.com/" target="_blank" rel="noopener noreferrer"><button class="button">See it Live</button></a>
                                     <a href="https://github.com/Gauraklein/President_Trump_vs_The_Market" target="_blank" rel="noopener noreferrer"><button class="button">Source Code</button></a>
                                 </p>
-                        
+
                                 <p class="column has-text-left is-one-half"><strong>Technologies Used</strong><br>
-                                    Javascript - Twitter API - Alpha Vantage API - AJAX - Jquery - Bulma (Css) - Chart.js - Netlify 
+                                    Javascript - Twitter API - Alpha Vantage API - AJAX - Jquery - Bulma (Css) - Chart.js - Netlify
                                 </p>
 
-                               
+
 
                             </div>
-                   
+
                 </div>
-                
+
                 <!-- CHORD.PROG CHORD.PROG CHORD.PROG  -->
                     <div class="projectContainer">
-                        
+
                         <div class="columns">
                             <div class="column is-one-half has-text-left">
                                     <h1 class="title is-3">Chord.Prog</h1>
                                     <p class="subtitle is-5">A Chord Progression Generator</p>
-                                    <p class="content">In my free time I like to play music and I find myself using similar chord progression tools pretty regularly. 
-                                        I created this project to test myself and see if I could recreate a functional app. 
-                                        Through the development process I was able to sucessfully reverse engineer the base functionality of an app that I use regularly as well as solve a real world issue through code. 
+                                    <p class="content">In my free time I like to play music and I find myself using similar chord progression tools pretty regularly.
+                                        I created this project to test myself and see if I could recreate a functional app.
+                                        Through the development process I was able to sucessfully reverse engineer the base functionality of an app that I use regularly as well as solve a real world issue through code.
                                         There is a lot of room for expansion with this application and it really opened my eyes to what is possible within the world of software.
                                     </p>
 
@@ -152,7 +196,7 @@
                         </div>
 
                         <div class="projectFooter columns">
-                            
+
                                 <p class="column has-text-left is-one-half"><strong>Technologies Used</strong><br>
                                     Javascript - SCSS - HTML
                                 </p>
@@ -163,9 +207,8 @@
                                 </p>
 
                             </div>
-                   
-                </div>
-                
+                    </div>
+
             </div>
         </div>
     </section>
@@ -177,13 +220,13 @@
             <div class="container has-text-centered">
 
                 <h1 class="title is-1" id="aboutTitle">About Me</h1>
-                
+
                 <div class="columns">
                     <div class="column">
                             <i class="aboutIcon fas fa-briefcase fa-8x"></i>
                         <p class="content">
                                 I am a motivated, quick-learning professional who values working within a driven, high functioning team.
-                                I believe in putting in the extra mile the first time around as well as writing clean and readable code. 
+                                I believe in putting in the extra mile the first time around as well as writing clean and readable code.
                                 I value constructive criticism and believe that every project, objective and task contains an opportunity to learn something new.
                         </p>
                     </div>
@@ -192,10 +235,10 @@
                         <i class="aboutIcon fas fa-hospital fa-8x"></i>
                         <p class="content">
                             My previous experience is in Healthcare IT and Training within large hospital systems.
-                            I currently work with a patient facing web application and collaborate effectively with various facets of the business ranging from senior management, development teams, clinical staff and patients. 
+                            I currently work with a patient facing web application and collaborate effectively with various facets of the business ranging from senior management, development teams, clinical staff and patients.
                         </p>
                     </div>
-                    
+
                     <div class="column">
                             <i class="aboutIcon fas fa-laptop-code fa-8x"></i>
                         <p class="content">
@@ -205,7 +248,7 @@
                         </p>
                     </div>
                 </div>
-               
+
                 <hr>
 
                 <h1 class="subtitle">Technical Skills</h1>
@@ -229,13 +272,13 @@
                         <i class="fas fa-database fa-4x"></i>
                         <p>SQL</p>
                     </div>
-                    
-                    
+
+
                 </div>
-                
+
                 <!-- SECOND ROW OF TECH  -->
                 <div class="columns">
-                    
+
                     <div class="column">
                         <i class="fab fa-css3-alt fa-4x"></i>
                         <p>CSS/SASS</p>
@@ -258,7 +301,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- EXPERIENCE EXPERIENCE EXPERIENCE -->
 
     <section class="hero is-white" id="experience">
@@ -319,7 +362,7 @@
                             - Created improved work flows and trained staff in new methods of
                             implementing technology into clinic practices.
                         </p>
-                       
+
                         <p>
                             <strong>
                                 Museum of Sacred Art MOSA - Belgium branch Project Manager Jun 2012 –
@@ -381,13 +424,13 @@
                             workflows and best-practices.
                         </p>
 
-                        
+
             </div>
             <div class="container has-text-centered" id="downloadResume">
                 <p class="subtitle is-4"><strong>For more information</strong></p>
-                  
+
                         <a href="./Gaura Klein Resume.pdf" download><p class="button is-link">Download My Resume</p></a>
-                    
+
                 </div>
         </div>
     </section>
@@ -400,45 +443,20 @@
 
                 <h1 class="title is-1">Contact</h1>
                 <h1 class="subtitle is-5">Feel free to get in touch!</h1>
-                
-                <div class="container has-text-left" id="form">
-                        <form action="mailto:gaurakklein@gmail.com" method="post" enctype="text/plain" >
-                        
-                        <div class="field">
-                            <label class="label">Name</label>
-                            <div class="control has-icons-left">
-                              <input class="input" type="text" placeholder="John Doe">
-                              <span class="icon is-small is-left">
-                                    <i class="fas fa-user"></i>
-                                  </span>
-                            </div>
-                        </div>
-                          
-                          
-                        <div class="field">
-                            <label class="label">Email</label>
-                            <div class="control has-icons-left">
-                              <input class="input" type="email" placeholder="Email">
-                              <span class="icon is-small is-left">
-                                <i class="fas fa-envelope"></i>
-                              </span>
-                            </div>
-                        </div>
-                          
-                        <div class="field">
-                            <label class="label">Message</label>
-                            <div class="control">
-                              <textarea class="textarea" placeholder="..."></textarea>
-                            </div>
-                        </div>
-                          
-                          <div class="field is-grouped">
-                            <div class="control">
-                              <button type="submit" class="button is-link">Submit</button>
-                            </div>
-                          </div>
-                        </form>
-                    </div>  
+
+                <div id="iconBottomLinks" class="has-text-centered">
+                    <span class="iconMargin icon">
+                        <a href="https://github.com/Gauraklein" target="_blank" rel="noopener noreferrer"><i class="fab fa-github iconBottom fa-2x"></i></a>
+                    </span>
+                    <span class="icon iconMargin">
+                        <a href="mailto:gaurakklein@gmail.com"><i class="fas fa-envelope iconBottom fa-2x"></i></a>
+                    </span>
+                    <span class="icon iconMargin">
+                        <a href="https://www.linkedin.com/in/gaura-klein-0926b9b2/" target="_blank" rel="noopener noreferrer"><i class="fab iconBottom fa-linkedin fa-2x"></i></a>
+                    </span>
+
+               </div>
+
             </div>
         </div>
     </section>
