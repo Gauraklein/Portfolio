@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gaura.Klein</title>
+    <title>Gaura Klein</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/ff95eb7062.js" crossorigin="anonymous"></script>
@@ -93,21 +93,29 @@
 
                     <div class="columns">
                         <div class="column is-one-half has-text-left">
-                            <h1 class="title is-3">The unofficial 'This American Life'</h1>
+                            <h1 class="title is-3">The Unofficial 'This American Life' App</h1>
                             <p class="subtitle is-5">An exercise in React.js and webscraping.</p>
                             <p class="content">This app is a work in progress and has been a great lesson in recreating a fully functioning web app.
                                 I started this project because I was having trouble keeping track of which episodes of 'This American Life' I had already listened to.
                                 The eventual goal for this project is to implement that feature and I am steadily working towards it. The journey to that point has been a great experience and has allowed me to work with some very interesting technologies.
                                 The first issue I faced was gathering episode data which I solved by scraping the 'This American Life' website.
                                 From there I had to parse the data I gathered and store it somewhere so I created a relational database to hold all the episode information and contents.
-                                Finally I used react as a frontend connected to a SQL backend in order to display all episodes. This project is still in development and I will deploy as I have more of the functionality built out.
+                                Finally I used React as a frontend connected to a SQL backend in order to display and play audio from all episodes. This project is still in development and I will deploy as I have more of the functionality built out.
                             </p>
 
                         </div>
 
                         <div class="is-flex is-flex-centered column">
-                            <img src="img/Talgif.gif" alt="Frontend" class="image gif">
-                            <img src="img/talscrapergif.gif" alt="Scraper" class="image gif">
+                            <div id="talGifs">
+                                <div>
+                                <img src="img/Talgif.gif" alt="Frontend" class="image gif">
+                                </div>
+                                <br>
+                                <div>
+                                <img src="img/talscrapergif.gif" alt="Scraper" class="image gif">
+                                </div>
+                            </div>
+                                
                         </div>
 
                     </div>
@@ -115,12 +123,12 @@
                     <div class="projectFooter columns">
 
                         <p class="column has-text-left is-one-half"><strong>Technologies Used</strong><br>
-                            Javascript - SCSS - HTML
+                            React - Redux - Node.js - PostgreSQL <br> Express.js - Passport.js - Puppeteer.js - Cheerio.js
                         </p>
 
                         <p class="buttons has-text-centered are-medium column is-one-half">
-                            <a href="https://gauraklein.github.io/chord.prog/" target="_blank" rel="noopener noreferrer"><button class="button">See it Live</button></a>
-                            <a href="https://github.com/Gauraklein/chord.prog" target="_blank" rel="noopener noreferrer"><button class="button">Source Code</button></a>
+                            <a href="https://github.com/Gauraklein/unofficialThisAmericanLife" target="_blank" rel="noopener noreferrer"><button class="button">App Source Code</button></a>
+                            <a href="https://github.com/Gauraklein/this_american_life_scraper" target="_blank" rel="noopener noreferrer"><button class="button">Scraper Source Code</button></a>
                         </p>
 
                     </div>
@@ -436,44 +444,19 @@
                 <h1 class="title is-1">Contact</h1>
                 <h1 class="subtitle is-5">Feel free to get in touch!</h1>
 
-                <div class="container has-text-left" id="form">
-                        <form action="mailto:gaurakklein@gmail.com" method="post" enctype="text/plain" >
+                <div id="iconBottomLinks" class="has-text-centered">
+                    <span class="iconMargin icon">
+                        <a href="https://github.com/Gauraklein" target="_blank" rel="noopener noreferrer"><i class="fab fa-github iconBottom fa-2x"></i></a>
+                    </span>
+                    <span class="icon iconMargin">
+                        <a href="mailto:gaurakklein@gmail.com"><i class="fas fa-envelope iconBottom fa-2x"></i></a>
+                    </span>
+                    <span class="icon iconMargin">
+                        <a href="https://www.linkedin.com/in/gaura-klein-0926b9b2/" target="_blank" rel="noopener noreferrer"><i class="fab iconBottom fa-linkedin fa-2x"></i></a>
+                    </span>
 
-                        <div class="field">
-                            <label class="label">Name</label>
-                            <div class="control has-icons-left">
-                              <input class="input" type="text" placeholder="John Doe">
-                              <span class="icon is-small is-left">
-                                    <i class="fas fa-user"></i>
-                                  </span>
-                            </div>
-                        </div>
+               </div>
 
-
-                        <div class="field">
-                            <label class="label">Email</label>
-                            <div class="control has-icons-left">
-                              <input class="input" type="email" placeholder="Email">
-                              <span class="icon is-small is-left">
-                                <i class="fas fa-envelope"></i>
-                              </span>
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <label class="label">Message</label>
-                            <div class="control">
-                              <textarea class="textarea" placeholder="..."></textarea>
-                            </div>
-                        </div>
-
-                          <div class="field is-grouped">
-                            <div class="control">
-                              <button type="submit" class="button is-link">Submit</button>
-                            </div>
-                          </div>
-                        </form>
-                    </div>
             </div>
         </div>
     </section>
