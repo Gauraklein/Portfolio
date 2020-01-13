@@ -69,6 +69,11 @@ a:hover {
     box-shadow: 5px 10px 8px #888888;
 }
 
+.mobile-gif {
+    max-width: 100%;
+    border-radius: 25px;
+    box-shadow: 5px 10px 8px #888888;
+}
 
 
 .aboutIcon {
